@@ -448,7 +448,7 @@ Realization that every choice has the minimum trade-off of what you could have d
 
 see Trade-off
 
-=== A??? theorem
+=== Trading theorem
 
 Even if one party is more productive in all aspects, if there is at least a difference in relative productivity, both parties can be better of if they trade.
 
@@ -854,7 +854,6 @@ People are very tribal, because that's the environment the human mind evolved. B
 Chinese minister plans coup. Shows others a deer and tells them it's a horse. Ones who see the plan say it's a horse, ones who disagree are executed: Ridiculus belivies are a strong marker of group membership. Everybody can believe the truth, only a true believer can believe nonsense.
 
 * see In-group vs Out-group
-
 === Sour grapes
 Fox cannot reach the grapes, claims he did not want them anyways:
 Tendency to downplay value of things which could not be obtained.
