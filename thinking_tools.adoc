@@ -14,7 +14,7 @@ The probability of a theory is the previous probability times the likelihhod of 
 
 Some system exhibi symmetry, which can be used to model them.
 
-e.g. Newtownion Forces
+e.g. Newtonian Forces
 
 === Conserved Quantity
 
@@ -31,13 +31,13 @@ Intuitive: How much and in what direction changes the output if the input change
 ==== Integration
 Generalization of sum to non-discrete functions.
 
--> Discrete
+see Discrete vs Non-discrete
 
 
 === Discrete vs. Non-discrete
 
-*Discrete: System consists of some quantity which cannot be divided further, e.g. elementary particles and integers
-*Non-discrete: Values infinitely dividible, e.g. real numbers 
+* Discrete: System consists of some quantity which cannot be divided further, e.g. elementary particles and integers#
+* Non-discrete: Values infinitely dividible, e.g. real numbers 
 
 === Linear Systems vs Nonlinear
 
@@ -59,9 +59,9 @@ Generalization of sum to non-discrete functions.
  
 Slight changes in input conditions lead to unpredictiable behaviour even if function of system is perfectly known and System is deterministic.
 
--> Deterministic
+see Deterministic
 
--> Linear Systems
+see Linear Systems
 
 
 === Local vs Global Optimum
@@ -78,6 +78,7 @@ see Equilibrium
 Rate of change is a function of the current state of the system.
 
 d(f(x)) = g(f(x)) 
+
 see Analysis
 
 === Phase space
@@ -174,16 +175,16 @@ There exists no program which can compute the result of all programs without run
 
 Easy to compute function which returns almost always a unique value for an object. Cannot be easily reversed. Can be used as a secure key.
 
-see Gödel Number
-see Block Chain
-see Invertability
+* see Gödel Number
+* see Block Chain
+* see Invertability
 
 === Block Chain
 
 Chain of hashing blocks. Allows distributed validation of computation by burning energy to find the reverse hash of some computation + previous hash.
 
-see Hashing
-see Distributed computing
+* see Hashing
+* see Distributed computing
 
 === Parallelization, Distributed computing, Scalability
  
@@ -203,14 +204,29 @@ see Algorithmic Complexity
 
 Function calling itself with different arguments.
 
+=== Abstraction
 
+Higher level interface, which pretends to be atomar, but is actually built by hidden components. E.g. operating system pretends that there are files, devices etc. when in reality there are only electrons moving in semiconductors. Not limited to CS though: E.g. a  lock builds a security device from mechanical contraptions.
+
+==== Leaky Abstraction
+
+Abstraction that leaks the lower level into higher, usually resulting in unexpectd behaviour, bugs. Can only be understood by the underlying parts.
+
+* see Hacking
+
+=== Hacking
+
+Exploiting the underlying structure of an abstraction.
+
+* e.g. abusing stack overflows
+* e.g. lock picking
 
 === Neural Networks
 
 General function approximators, constructed by stacking building pieces. Can be trained by going into direction of gradient with respect to loss.
 
-see Analysis
-see Approximation
+* see Analysis
+* see Approximation
 
 == Biology
 
@@ -241,8 +257,8 @@ Gradients, e.g. amount of light in forest, salinity at beach leads
 to different species occupying each niche.
 Also in cultural context, e.g. language barrier lead to different types of cultures.
 
-
 see Niche Partitioning
+
 ==== Diversity is proportional to log(area)
 
 E.g. number of species in area of size  2 = log(2) * number of species in are of size 1
@@ -254,8 +270,8 @@ In sexually reproducing species a signal of good genes can be become it's own th
 * e.g. peacock's tail
 * e.g. Human dance and music
 
-see Mating Mind Hypothesis
-see Signalling
+* see Mating Mind Hypothesis
+* see Signalling
 
 === Mating Mind Hypothesis
 
@@ -315,8 +331,8 @@ Game where cooperation-cooperation is worse then one party defection = cooperati
 
 One agent has more information then other which can not be easily transferred. E.g. even a realtively new, but used car is worth way less, because the buyer does not know if the car has a problem and the seller will likely not tell.
 
-see Market
-see Signalling
+* see Market
+* see Signalling
 
 === Moloch, Inadequate Equlibria
 
@@ -324,9 +340,9 @@ Bad local minimum/Nash equlibrium in system. System is disfunctional, but every 
 consequences ofif trying to change it. E.g. Academia: Overall publish-or-parish bad, but no single scientist has incentive to not publish in high ranking journal.
 
 
-See Local minimum
-See Nash equlibrium
-See Equlibrium
+* see Local minimum
+* see Nash equlibrium
+* see Equlibrium
 
 === Path dependency
 
@@ -352,17 +368,17 @@ In some games, being the second or third one is insufficient, as only the first 
 * e.g. Zero-sum games between competing firms, when the potential market is small
 * e.g. Reproduction in gorillas: Only alpha male reproduces
 
-See Matthew effect
-See Network effect
-See Zero-sum games
+* see Matthew effect
+* see Network effect
+* see Zero-sum games
 
 === Network effect
 
 Value of a network is proportional to the number of connections, not nodes: Exponential vs linear. Thus only a small difference in initial size can lead to a different outcome, as new members join the network that has the highest value, thus increasing the netwok's value even more.
 
-See Linear vs. Non-linear
-See Winner takes it all
-See Positive feedback loop.
+* see Linear vs. Non-linear
+* see Winner takes it all
+* see Positive feedback loop.
 
 
 === Agressive vs Defensive play
@@ -372,8 +388,8 @@ Most of the time an agressive strategy is better then a defensive one: The aggre
 === Tit-for-Tat
 Strategy where initially one cooperates, but defects, once the other player starts defecting. Can be played with forgiveness, that after n rounds, one start cooperating again.
 
-See Prisoners' Dilemma
-See Nash equlibrium
+* see Prisoners' Dilemma
+* see Nash equlibrium
 
 
 == Economics
@@ -383,16 +399,24 @@ See Nash equlibrium
 
 In an efficient market, the prices are determined by supply and demand. If more people want the same good, prices increase, which leads to more people producing the good, which brings prices down again.
 
-See Negative feedback loop
-See Market
-See Efficient Market Hypothesis
+* see Negative feedback loop
+* see Market
+* see Efficient Market Hypothesis
+
+=== Reveled Preferences
+
+Idea that one should look more at what people do and spend money one, instead of listening to what the say, if one wants to figure out, what the real intentions are.
+
+* see Subconcious
+* see Tribalism
+
 
 
 === First mover advantage
 
 Advantage company has be moving in the market first. Mostly based on network effect and stickiness of choices.
 
-See Network effect
+* see Network effect
 
 === Pareto distribution
 
@@ -475,9 +499,9 @@ If market has no information assymetry, it is hard to outcompete the aggregate i
 
 Producing more of a product lowers marginal cost up to certain point. Depends heavily on algorithmic complexity and parallelizability.
 
-see Marginal Value & Cost
-see Algorithmic complexity
-see Parallelization
+* see Marginal Value & Cost
+* see Algorithmic complexity
+* see Parallelization
 
 
 === Option
@@ -491,13 +515,37 @@ Allocating ressources as to minimize risk.
 
 See Option
 
+=== Skin in the game
+
+When people are invested in a prediction, monetarly or otherwise, their predictions will be more realistic and less grown to group think.
+
 === Tragedy of the commons
 
 
 Unclear ownership of shared resources can lead to overexploitation, e.g. fishing until all fish are caught
 
-See Diffusion of responsibilit
-See Postive feedback loop
+* see Diffusion of responsibility
+* see Postive feedback loop
+
+=== Bubble
+
+Positive feeeback loops that leads to an inflation of the price of some asset (e.g. Tulips, Houses) which at some point crashes
+
+* see Madness of Crowds
+* see Postive feedback cycle
+
+=== Economic cycle
+
+Observations that economies expand and contract in multi-year long cycles.
+Why tho?
+
+
+=== Class
+
+Idea that different types of social groups, which different goals, practises, knowledge etc exist. Most of time comes with conflict.
+
+
+
 
 
 
@@ -530,8 +578,8 @@ Pressure is proportional to Volume times Temperature.
 
 State of system in which forces that influence system are in balance and no change happens.
 
-Stable: In local minium
-Unstable: Not in local minimum
+* Stable: In local minium
+* Unstable: Not in local minimum
 
 See local minium
 
@@ -565,9 +613,28 @@ See Bayes theorem
 Number of other, more basic theories one needs to accept to be able to discuss the theory in question. E.g. to accept evolution one first needs to accept that the Bible was not written by God etc.
 
 
+=== Difference in feedback quality ( Needs a good name)
+
+Different fields exhibit different quality, and thus the average level of expertise quite varies. To have good feedback quality, a field must fufill different criteria:
+
+* Speed of feedback: If feedback is slow, it is hard to learn and iterate.
+* Open: Can anybody go into the field and make predictions or is there an unmeritocratic extry hurdle?
+* Deterministic: If the result is heavily influenced by random events, it is hard to draw conclusion.
+* Observable: Is the result of actions observable.
+* Skin in the game: Are the agents subject to money or status prices? see Skin in the Game
+* Group bias: Are the agents part of a single ideological group? See Tribalism
+
+* Fields with good feedback cycles:
+** Programming
+** Sports
+* Fields with worse ones:
+** Academic Sociology
+** Politics
+
+
 === Inside vs. Outside view
 
-Know areas and topics are usually seen as more diverse and lively than unknown.
+Know areas and topics are usually seen as more diverse and lively than unknown topics.
 
 
 === Unfair demands of purity
@@ -595,6 +662,9 @@ Derailing the conversation by asking "but what about UNRELATED topic"
 * Straw-Manning: Disproving the other side, by attacking not the real argument but a weak/distorted version
 * Steel-Manning: Trying to disprove the strongest version of the the other side's argument
 
+=== Truism
+
+Piece of knowledge with is widle known to be true, but might not be and is not usually questioned.
 
 === Fox vs Hedgehog
 
@@ -606,8 +676,33 @@ When performing some (ethics) thought eperiments, change some part, which should
 
 E.g. In trolley problem, feels pushing the person on the rails same os letting them fall?
 
+=== Anthropic principle
+
+What does your existence as an observer say about your universe?
+-> since you exit your universe must support the existence of observers like you.
+What does you universe say about you as the average observer?
+-> If you would not know anything about you, but you were at a dentist's conferenece, there is a high likelihood you are also a dentist.
+
+=== Chesterton's Fence
+
+Old cultural practises might seem harsh, e.g. taboo against pre-marital sex. But before you abolishing them you should consider why there were there at the first place, in this case minimizing single mothers.
+
+==== Chesterton's Meta-Fence
+
+In the last couple of hundered years, on average, abolishing must harsh cultural practises had a net positive effect.
+
+* see Cultural Evolution
+
+=== Survivor Bias
+
+Only things that survive can be observed, giving a skewed version of the real distribution.  E.g. WW2 planes had no holes in certain parts, because the ones that were hit there, did not return.
 
 
+==== History is written by the winners
+
+Surviving documents are biased towards the side who wrote them, which is more likely the one that won in conflicts.
+
+* see Map vs. Territory
 
 == Psychology
 
@@ -665,9 +760,9 @@ see Story Telling
 Human minds understand a story with agent's that have goals and clear groups most easily. Things that are not easily brought into this form, e.g. high-dimensional, non-deterministic, chaotic processes are difficult to understand.
 
 
-see Deterministic vs. non-deterministic
-see Chaotic system
-see Theory of mind
+* see Deterministic vs. non-deterministic
+* see Chaotic system
+* see Theory of mind
 
 
 == Sociology & Organization
@@ -678,9 +773,16 @@ see Theory of mind
 Ideas underly similar mechanisms as genes: They mutate, they are propagated, they provide advantages/disadvantages to carrier. Thus we would expect, e.g. memes to evolve to be more easily transmitted.
 
 
-See Story telling
+* see Story telling
+* see biological evolution
 
-See biological evolution
+=== Cultural Evolution
+
+Idea that cultural practises, similar to species, evolve to maximise the survival of group. 
+
+
+* see Meme
+* see Chesterton's Fence
 
 === Wisdom of crowds
 
@@ -694,9 +796,9 @@ See Efficient Market Hypothesis
 
 Tendency of people to lose identity in mobs, which leads to actions a single person would never do.
 
-See Holiness Spiral
-See Diffusion of responsibility
-See Tribalism
+* see Holiness Spiral
+* see Diffusion of responsibility
+* see Tribalism
 
 === Diffusion of resposibility
 
@@ -717,9 +819,9 @@ Behaviour or trait which signals an underlying, but not easily demonstratable tr
 * e.g. University degree signals intelligence and grit. It's is costly in time and money, bonesut easier for smart and diligent people.
 * e.g. religious practisis like circumcision singal commitment to group. Easier to accept mutiliation if you are a true believer.
 
-see Sexual selection
-see Information Assymmetry
-see Point deer - make horse
+* see Sexual selection
+* see Information Assymmetry
+* see Point deer - make horse
 
 === Status
 
@@ -737,22 +839,21 @@ Mostly derogative. Tendency to signal owns virtue to increase status without pay
 
 Process where signalling one's own virtues leads to a positive feedback loop of ever increasing real signals with higher cost. Can lead to complete extinction of run to long. e.g. Communist Cambodia
 
-see Status
-see Virtue Signalling
+* see Status
+* see Virtue Signalling
 
 
-=== In-group vs Out-group, Tribalism
+=== In-group vs Out-group, Tribalism, Group think
 
-People are very tribal, because that's the environment the human mind evolved. Believes and rituals are a strong marker of beeing part of a group. This leads to arguments beeing soldiers. Politics is the mind killer. In-group is usually seen as better, having higher ethics and beeing more diverse than Out-group.
+People are very tribal, because that's the environment the human mind evolved. Believes and rituals are a strong marker of beeing part of a group and people really want to belong. This leads to arguments beeing soldiers and core beliefs of the group are not questioned.  In-group is usually seen as better, having higher ethics and beeing more diverse than Out-group. Also the In-group is very heavily defended, especially against outside criticism. Politics is the mind killer.
 
-see Inside vs. Outside view
-see Unfair demand for purity
+* see Inside vs. Outside view
+* see Unfair demand for purity
 
 === Point deer - make horse
 Chinese minister plans coup. Shows others a deer and tells them it's a horse. Ones who see the plan say it's a horse, ones who disagree are executed: Ridiculus belivies are a strong marker of group membership. Everybody can believe the truth, only a true believer can believe nonsense.
 
-see In-group vs Out-group
-
+* see In-group vs Out-group
 
 === Sour grapes
 Fox cannot reach the grapes, claims he did not want them anyways:
@@ -766,4 +867,13 @@ Tendency for organisation to select from unqualified people for their personnel,
 
 Culture context matters,e.g. hot air ballon and bycicle where invented in the 1800's, but actually no to little scientific discovieries had to be made. It was likely because of a change in mindset that things could be discovered.
 
+=== Subculture
 
+Group of people that diverges from the mainstream culture to construct their own Status hierachy, usually with different ideas, cultural practises and looks.
+
+* e.g. Punks
+* e.g. Academia
+
+
+* see Tribalism
+* see Status
