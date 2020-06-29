@@ -693,6 +693,11 @@ In the last couple of hundered years, on average, abolishing must harsh cultural
 
 * see Cultural Evolution
 
+
+=== Black Swan Event, Unknown Unknowns
+
+Event that is not captured by the current model, and thus it's probability is highly underestimated. 
+
 === Survivor Bias
 
 Only things that survive can be observed, giving a skewed version of the real distribution.  E.g. WW2 planes had no holes in certain parts, because the ones that were hit there, did not return.
